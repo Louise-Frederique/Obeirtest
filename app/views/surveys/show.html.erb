@@ -5,8 +5,14 @@
   <%= @survey.name %>
 </h1>
 
+<ul>
 <% @survey.questions.each do |question| %> 
-<%= question.title %>	
+	<li><%= question.title %>
+	<% question.choices.each do |choice| %>
+		<%= choice.description %>
+	<% end %></li> 
 <% end %>
+</ul>
+
 <%= link_to 'Edit', edit_survey_path(@survey) %> |
 <%= link_to 'Back', surveys_path %>
