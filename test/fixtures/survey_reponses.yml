@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trend_id: 
+  total: 1
+  user_id: 
+  survey_id: 
+
+two:
+  trend_id: 
+  total: 1
+  user_id: 
+  survey_id: 
